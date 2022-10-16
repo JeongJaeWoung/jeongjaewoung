@@ -1,1 +1,21 @@
-p {color: blue;}
+body {padding-top: 100px;}
+.wrap {max-width: 1350px; margin: 0 auto;}
+
+header .main_tit {display: flex; justify-content: center; padding: 0px 40px;}
+header .main_tit h1 {font-size: 45px; font-weight: bold;}
+
+header .main_content {margin: 30px 40px; display: flex; align-items: center;  padding-bottom: 30px; border-bottom: 1.5px solid #b4b2b2;}
+header .main_content .user_img {display: inline-block;}
+header .main_content .user_img img {width: 150px; display: inline-block;}
+
+header .main_content .main_subtit_wrap {display: inline-block; margin-left: 40px;}
+
+header .main_content .main_subtit_wrap .main_subtit:nth-child(2) {margin-top: 15px;}
+header .main_content .main_subtit_wrap .main_subtit i {width: 10px; height: 10px; display: inline-block; border: 1px solid tan;}
+header .main_content .main_subtit_wrap .main_subtit p {font-size: 18px; display: inline-block; margin-left: 5px;}
+header .main_content .main_subtit_wrap .main_subtit p span {font-weight: bold;}
+
+.content_1 {margin: 0px 40px 30px 40px;border-bottom: 1.5px solid #b4b2b2; padding-bottom: 30px;}
+.content_1 div h3 {font-size: 24px; font-weight: bold;}
+
+.content_1 div p {font-size: 16px; margin-top: 10px; text-decoration: underline;   text-decoration-color: #e1e1e1; text-underline-position: under; line-height: 23px; }

@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // ▼ 버튼 클릭시 내용 없어짐
-    $(document).on('click', '.content_hd > button', function(){
-        var targetObj = $(this).parents(".content_hd").siblings(".content_sc");
+    $(document).on('click', '.content_hd > div', function(){
+        var targetObj = $(this).parents(".content_hd").siblings(".content_sc_wrap");
         var underFont = $(this).children("i");
 
         targetObj.toggleClass('close');  

@@ -24,4 +24,10 @@ $(document).ready(function(){
         modalContent.hide();
         $('body').css("overflow", "scroll");
     });
+        $('body').click(function(e){
+        if($('modal_1').css("display","block")){
+            $(".modal_1").hide();
+        }
+        $('body').css("overflow", "scroll");
+    });
 });

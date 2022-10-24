@@ -111,8 +111,8 @@ footer {padding: 20px 30px;}
 
 
 .modal_1_sc .modal_1_sc_04 { position: relative;width: 100%; margin-top: 30px;}
-.modal_1_sc .modal_1_sc_04 .modal_1_sc_04_wrap {display: flex; justify-content: space-between;}
-.modal_1_sc .modal_1_sc_04 .modal_1_sc_04_wrap img {background-repeat: no-repeat;background-repeat: no-repeat; width:calc(50% - 10px); max-height: 350px; background-size: cover;border-radius: 10px; display: inline-block; margin-right: 20px;}
+.modal_1_sc .modal_1_sc_04 .modal_1_sc_04_wrap {display: flex; justify-content: space-between; padding: 0 20px;}
+.modal_1_sc .modal_1_sc_04 .modal_1_sc_04_wrap img {background-repeat: no-repeat;background-repeat: no-repeat; width:calc(50% - 20px); max-height: 350px; background-size: cover;border-radius: 10px; display: inline-block; margin-right: 20px;}
 
 .modal_1_sc .modal_1_sc_04 .modal_1_sc_04_wrap img:nth-child(2){margin-left: 15px;}
 .modal_1_sc .modal_1_sc_04 span {font-size: 15px; margin-top: 5px; display: inline-block; font-weight: bold; line-height: 20px;}
